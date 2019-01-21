@@ -1,0 +1,39 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  
+  
+  
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+    header{
+        width:100%;
+    }
+    #side{
+        display:none;
+    }
+    #main{
+        width:100%;
+    }
+    .enemy{
+        width:50%;
+    }
+    .box2{
+        width:100%;
+    }
+    
+    .box3{
+        width:100%;
+    }
+    .box5{
+        width:100%;
+    }
+    
+    .modal{
+     width:auto;
+    }
+    footer{
+        width:100%;
+    }
+}
