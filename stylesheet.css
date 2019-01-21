@@ -1,0 +1,443 @@
+body {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  
+}
+li{
+    
+    list-style-type: none;
+}
+.clear{
+  clear:left;
+}
+*{
+  box-sizing:border-box;
+  margin: 0px;
+    padding: 0px;
+}
+.top-header{
+    background-image: url(S__7454722.png);
+    background-size:cover;
+    height:450px;
+    width:auto;
+}
+
+header{
+    width:100%;
+    background-color: #f57;
+}
+
+header ul {
+    width: 100%;
+    overflow: hidden;
+}
+header li{
+    width: 20%;
+    float: left;
+}
+header a {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f57;
+    color: #fff;
+}
+header a:hover {
+    background-color: #f7a;
+}
+
+#main{
+    width:80%;
+    float:left;
+}
+
+.container{
+    
+    margin: 0 auto;
+    padding: 0 15px;
+    width:100%;
+   
+}
+
+.top-wrapper{
+    padding:50px 0;
+    height:auto;
+    display:inline-block;
+    overflow:hidden;
+    text-align:center;
+    width:100%;
+}
+
+
+
+.enemy{
+    float:left;
+    width:20%;
+    overflow:hidden;
+}
+.enemy-icon img{
+    margin:0 auto;
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%
+}
+.enemy-contents{
+    margin: 3% auto;
+    width: 80%;
+    font-size: 17px;
+    display: block;
+}
+.enemy-active{
+    display: block;
+}
+
+.stamens{
+    
+}
+
+
+.box2 {
+    width:800px;
+    padding: 0.5em 1em;
+    margin:0 auto;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    margin-top:50px;
+    overflow:scroll;
+}
+.box2 h2,p {
+    margin: 0; 
+    padding: 0;
+    overflow:hidden;
+    text-align:center;
+}
+
+.stamen{
+    display:inline-block;
+    width:730px;
+  
+    
+}
+
+.fujinami{
+    float:left;
+    padding:0 5px;
+    overflow:hidden;
+    position:relative;	/* 相対位置指定 */
+}
+.pitcher{
+    height:305px;
+    width:210px;
+}
+.caption {
+	font-size:14px;
+	text-align: left;
+	padding-top:0px;
+	color:#fff;
+}
+.mask {
+	height:305px;
+	width:210px;
+	position:absolute;	/* 絶対位置指定 */
+	top:0;
+	left:5px;
+	opacity:0;	/* マスクを表示しない */
+	background-color:rgba(0,0,0,0.4);	/* マスクは半透明 */
+	
+}
+.fujinami:hover .mask {
+	opacity:1;	/* マスクを表示する */
+}
+
+
+
+.fielder{
+    height:150px;
+    width:120px;
+    padding:0 5px;
+}
+
+.riliefs{
+    text-align:center;
+    
+}
+.box3 {
+    width:800px;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    margin-top:30px;
+    font-weight: bold;
+    color: #f58;/*文字色*/
+    background: #FFF;
+    border: solid 3px #f57;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    overflow:hidden;
+}
+.box3 p {
+    margin: 0; 
+    padding: 0;
+}
+.rilief{
+    display:inline-block;
+    max-width:50%;
+}
+rilief-icon{
+    
+
+}
+
+/*faq wrapper*/
+.faq-wrapper {
+  
+  text-align: center;
+  padding:50px 0 80px 0; 
+  color: #5f5d60;
+  
+}
+.box5 {
+    width:800px;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    margin-top:30px;
+    font-weight: bold;
+    
+    background: #FFF;
+    border: solid 3px #f57;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    overflow:hidden;
+}
+.heading{
+    color:#f57;
+    padding-bottom:20px;
+}
+
+#faq-list {
+  width:70%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+ 
+}
+
+
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: center;
+  
+}
+
+.faq-list-item h3 {
+  font-size: 15px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:0;
+  color:#ccc;
+  font-size:15px;
+}
+
+.answer {
+  font-size: 17px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display:none;
+  color:red;
+}
+.answer p{
+    font-weight:bold;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #f57;
+  cursor: pointer;
+  box-shadow: 0px 7px #990000;
+  margin-bottom:30px;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+/*モーダル*/
+.signup-modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 600px;
+  height: auto;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.fa-times {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+ 
+}
+
+#signup-form {
+  width: 100%;
+}
+
+#signup-form h2 {
+  color: red;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+#signup-form img{
+    margin:0 auto;
+    width:90%;
+}
+
+
+/*サイドバー*/
+#side{
+    width:20%;
+    float:right;
+    overflow:hidden;
+    margin: 0 auto;
+    padding: 0 5px;
+    
+}
+.box4 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    
+    background: #FFF;
+    border: solid 3px #f57;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    overflow:hidden;
+    
+}
+.side-logo{
+    margin: 0 auto; 
+    text-align:center;
+    
+}
+.side-logo img{
+    width:250px;
+   
+}
+.box4 h3{
+    margin: 0; 
+    padding: 0;
+    text-align:center;
+    color: #f57;/*文字色*/
+}
+.box4 p {
+    margin: 0; 
+    padding: 0;
+    color:black;
+    font-size:14px;
+    text-align:left;
+}
+.box4 a{
+    color:#F0F;
+}
+
+
+footer{
+    clear:both;
+    
+    padding-top: 10px;
+}
+footer img {
+   height: 45px;
+   float:left;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  line-height:45px;
+  float:left;
+}
+.footer-left{
+    float:left;
+    margin-right:10px;
+}
+.footer-icon{
+    
+}
+.footer-right{
+    float:right;
+}
+.footer-right a{
+    color:#b3aeb5;
+}
+.botan{
+    padding: 8px 15px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.botan:hover {
+  opacity: 1;
+}
+.instagram {
+  background-color: #D93177;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition : all 300ms;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
