@@ -29,7 +29,14 @@
     .box5{
         width:100%;
     }
-    
+    .rilief{
+       float:left;
+       width:50%;
+    }
+    .rilief-icon img{
+        width:80%;
+        height:80%;
+    }
     .modal{
      width:80%;
     }
