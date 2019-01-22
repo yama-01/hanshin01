@@ -114,7 +114,7 @@ header a:hover {
     border: solid 3px #6091d3;/*線*/
     border-radius: 10px;/*角の丸み*/
     margin-top:50px;
-    overflow:hidden;
+    overflow:;
 }
 .box2 h2,p {
     margin: 0; 
@@ -210,7 +210,7 @@ header a:hover {
     background: #FFF;
     border: solid 3px #f57;/*線*/
     border-radius: 10px;/*角の丸み*/
-    overflow:scroll;
+    overflow:hidden;
 }
 .box3 h2, p {
     	margin: 0; 
