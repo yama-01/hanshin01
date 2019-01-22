@@ -98,6 +98,7 @@ header a:hover {
     display: block;
 }
 
+/*スタメン*/
 .stamens{
     
 }
@@ -167,9 +168,10 @@ header a:hover {
     padding:0 5px;
 }
 
+/*リリーフ*/
 .riliefs{
     text-align:center;
-    
+    overflow:hidden;
 }
 .box3 {
     width:800px;
@@ -181,15 +183,17 @@ header a:hover {
     background: #FFF;
     border: solid 3px #f57;/*線*/
     border-radius: 10px;/*角の丸み*/
-    overflow:hidden;
+    overflow:scroll;
 }
-.box3 p {
-    margin: 0; 
-    padding: 0;
+.box3 h2, p {
+    	margin: 0; 
+    	padding: 0;
+	
 }
 .rilief{
     display:inline-block;
-    max-width:50%;
+    height:305px;
+    width:210px;
 }
 rilief-icon{
     
