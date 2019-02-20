@@ -392,7 +392,7 @@ rilief-icon{
 }
 .side-logo img{
     width:250px;
-   
+   margin: 0 auto; 
 }
 .box4 h3{
     margin: 0; 
