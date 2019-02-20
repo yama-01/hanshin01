@@ -19,11 +19,9 @@ li{
   margin: 0px;
     padding: 0px;
 }
-.top-header{
-    background-image: url(h-header.jpg);
-    background-size:cover;
+.top-header img{
     height:450px;
-    width:auto;
+    width:100%;
 }
 
 header{
