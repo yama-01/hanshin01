@@ -7,9 +7,12 @@
 
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
-    header{
-         max-width:670px;
+    .top-header{
+        max-width:670px;
         height:300px;
+    }
+    header{
+         width:100%;
     }
     #side{
         display:none;
